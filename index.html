@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="container shadow p-4">
-            <h3>Samples</h3>
+            <h3>Parameter Inference</h3>
             <table class="table pt-2">
                 <tr>
                     <th></th>
@@ -111,5 +111,37 @@
 
             </table>
         </div>
+
+        <div class="container shadow p-4">
+            <h3>Sound Modification</h3>
+            <table class="table pt-2">
+                <tr>
+                    <th>Original</th>
+                    <th>Reconstructed (GA)</th>
+                    <th>Pitch shift</th>
+                    <th>De-noising</th>
+                    <th>Envelope</th>
+                </tr>
+                <tr>
+                    <td>
+                        <audio controls><source src="sound/original/2-83934-B-5.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/ga/2-83934-B-5.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/modified/cat-pitch.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/modified/cat-noise.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/modified/cat-envelope.wav" type="audio/wav"></audio>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
     </body>
 </html>
