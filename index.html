@@ -1,6 +1,13 @@
 <html>
     <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <style>
+            audio {
+                width: 16wv;
+                min-width: 100px;
+                max-width: 180px;
+            }
+        </style>
     </head>
     <body>
         <div class="container shadow mt-4 p-4">
@@ -11,6 +18,98 @@
         </div>
         <div class="container shadow p-4">
             <h3>Samples</h3>
+            <table class="table pt-2">
+                <tr>
+                    <th></th>
+                    <th>Original</th>
+                    <th>Random</th>
+                    <th>Variational</th>
+                    <th>Metroplis</th>
+                    <th>GA</th>
+                </tr>
+                <tr>
+                    <td>
+                        dog
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/original/1-110389-A-0.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/random/1-110389-A-0.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/variational/1-110389-A-0.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/metropolis/1-110389-A-0.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/ga/1-110389-A-0.wav" type="audio/wav"></audio>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        rooster
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/original/5-194930-A-1.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/random/5-194930-A-1.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/variational/5-194930-A-1.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/metropolis/5-194930-A-1.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/ga/5-194930-A-1.wav" type="audio/wav"></audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        cat
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/original/2-83934-B-5.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/random/2-83934-B-5.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/variational/2-83934-B-5.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/metropolis/2-83934-B-5.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/ga/2-83934-B-5.wav" type="audio/wav"></audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        birds
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/original/2-122616-A-14.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/random/2-122616-A-14.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/variational/2-122616-A-14.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/metropolis/2-122616-A-14.wav" type="audio/wav"></audio>
+                    </td>
+                    <td>
+                        <audio controls><source src="sound/ga/2-122616-A-14.wav" type="audio/wav"></audio>
+                    </td>
+                </tr>
+
+            </table>
         </div>
     </body>
 </html>
